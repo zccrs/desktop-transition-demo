@@ -1,16 +1,12 @@
 # desktop-transition-demo
 
-DDE-like desktop demo for wallpaper and theme transitions.
+Pages: https://zccrs.github.io/desktop-transition-demo/
 
-**Pages:** https://zccrs.github.io/desktop-transition-demo/
+The working demo is a single `index.html` (~77KB) with WebGL page-curl / roll. The GitHub file API in the authoring session cannot upload that payload in one request.
 
-Latest complete single-file demo (WebGL page-curl / roll, spring, wipe) is the `index.html` from the Grok conversation artifacts. This repo keeps a split `index.html` + `style.css` + `app.js` copy for Pages.
+To publish the latest build:
 
-If Pages is empty or old, set Settings → Pages → Source to GitHub Actions or Deploy from branch `main` / root.
-
-Local preview:
-
-```bash
-python3 -m http.server 8080
-# open http://localhost:8080/
-```
+1. Download the latest `index.html` from the Grok conversation artifact.
+2. Open https://github.com/zccrs/desktop-transition-demo/upload/main
+3. Drop the file to overwrite `index.html` and commit.
+4. Wait for Pages to rebuild.
