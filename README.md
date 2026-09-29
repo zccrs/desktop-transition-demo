@@ -2,13 +2,8 @@
 
 DDE-like desktop demo for wallpaper and theme transitions.
 
-Open `index.html` in a browser, or use GitHub Pages with this repository.
+**Pages:** https://zccrs.github.io/desktop-transition-demo/
 
-## Controls
+If the first deploy is still running, wait a minute and refresh. Repository Settings → Pages should show Source: GitHub Actions.
 
-- Global Dark switch
-- Theme pack (wallpapers, icons, accent, light/dark)
-- Animation duration
-- Left window fade-in / right window fade-out
-- Next wallpaper, reset
-- Window maximize (keep dock) and fullscreen (cover dock)
+Open `index.html` locally if you want to preview without Pages.
