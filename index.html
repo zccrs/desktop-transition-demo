@@ -19,7 +19,8 @@
           <div class="combo" id="comboTheme">
             <button class="combo-btn" id="comboBtn" type="button">湖畔 · 暗色</button>
             <div class="combo-list" id="comboList"></div>
-          </div></div>
+          </div>
+        </div>
         <label class="ctl"><span>时长</span><input id="inpDur" type="number" min="0.5" max="20" step="0.5" value="5" /><span>s</span></label>
         <label class="ctl"><span>壁纸模式</span>
           <select id="selWpMode">
@@ -27,7 +28,8 @@
             <option value="spring">右移 + 弹簧压缩</option>
             <option value="roll">右移 + 卷轴</option>
             <option value="flip">左下翻页</option>
-          </select></label>
+          </select>
+        </label>
         <label class="ctl"><span>反弹位置</span><input id="inpDetach" type="number" min="15" max="85" step="5" value="50" /><span>%</span></label>
         <label class="ctl"><span>左侧窗口淡入</span><button class="switch on" id="swFadeL" type="button" role="switch" aria-checked="true"><i></i></button></label>
         <label class="ctl"><span>右侧窗口淡出</span><button class="switch on" id="swFadeR" type="button" role="switch" aria-checked="true"><i></i></button></label>
@@ -39,16 +41,16 @@
       <div class="monitor" id="monitor">
         <div class="viewport">
           <div class="desktop" id="desktop" data-theme="dark">
-          <div class="slider" id="slider">
-            <section class="screen screen-old"><div class="wallpaper wp-old"></div><div class="layer-windows" id="wins-old"></div></section>
-            <section class="screen screen-new"><div class="wallpaper wp-new"></div><div class="layer-windows" id="wins-new"></div></section>
-          </div>
-          <div class="dock" aria-hidden="true">
-            <div class="dock-ico">🗂</div><div class="dock-ico">🌐</div><div class="dock-ico">🎵</div>
-            <div class="dock-ico">🖥</div><div class="dock-ico">🗒</div><div class="dock-sep"></div><div class="dock-ico">⚙</div>
-          </div>
-          <div class="hud" id="hud"></div>
-          <div class="split-guide" id="guide"></div>
+            <div class="slider" id="slider">
+              <section class="screen screen-old"><div class="wallpaper wp-old"></div><div class="layer-windows"></div></section>
+              <section class="screen screen-new"><div class="wallpaper wp-new"></div><div class="layer-windows"></div></section>
+            </div>
+            <div class="dock" aria-hidden="true">
+              <div class="dock-ico">🗂</div><div class="dock-ico">🌐</div><div class="dock-ico">🎵</div>
+              <div class="dock-ico">🖥</div><div class="dock-ico">🗒</div><div class="dock-sep"></div><div class="dock-ico">⚙</div>
+            </div>
+            <div class="hud" id="hud"></div>
+            <div class="split-guide" id="guide"></div>
           </div>
           <canvas id="gpuFx"></canvas>
           <div class="frame-snap" id="frameSnap"></div>
